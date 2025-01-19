@@ -1,0 +1,147 @@
+body {
+    background-color: #000;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Spartan;
+    src: url(LeagueSpartan-VariableFont_wght.ttf);
+}
+
+.hero {
+    width: 98vw;
+    height: 120vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    border: 1.156px solid #000;
+    box-shadow: 0px 4.625px 4.625px 0px rgba(0, 0, 0, 0.25);
+    background: url(face.png) lightgray -160px -352px / 120% 211% no-repeat;
+}
+
+.gradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #d9d9d900 10.86%, rgb(0, 0, 0) 85%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-main {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    border: 0px solid #000;
+    background: url(mainlogo.png) rgba(211, 211, 211, 0) 50% / cover no-repeat;
+}
+
+.text-main {
+    position: absolute;
+    color: #EEE;
+    font-family: Spartan;
+    font-size: 24.35px;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 12.419px;
+    margin-top: 450px;
+    padding-right: 30px;
+}
+
+.contacts {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.profiles {
+    width: fit-content;
+    height: fit-content;
+}
+
+.pfp {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+.polpfp {
+    position: relative;
+    right: -20px;
+    width: 320px;
+    height: 320px;
+    border-radius: 1000px;
+    border: 2px solid #FFF;
+    background: url(paul.pfp.png) rgb(255, 255, 255) -123px -13px / 153% 191% no-repeat;
+}
+
+.lncepfp {
+    position: relative;
+    left: -20px;
+    width: 320px;
+    height: 320px;
+    border-radius: 1000px;
+    border: 2px solid #FFF;
+    background: url(lnce.pfp.jpg) rgb(255, 255, 255) 50% / cover no-repeat;
+}
+.polmini {
+    left: 80px;
+    bottom: 55px;
+    position: relative;
+    width: 175px;
+    height: 125px;
+    background-size: 20px 20px no-repeat;
+    background: url(pol.minilogo.png) rgba(255, 255, 255, 0) 70% / cover no-repeat;
+}
+
+.lncemini {
+    left: 370px;
+    bottom: 180px;
+    position: relative;
+    width: 200px;
+    height: 130px;
+    background-size: 30px 30px no-repeat;
+    background: url(lnce.minilogo.png) rgba(255, 255, 255, 0) 70% / cover no-repeat;
+}
+
+.socials {
+    width: fit-content;
+    height: fit-content;
+}
+
+.left {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.icons {
+    width: fit-content;
+    height:fit-content;
+}
+
+.facebook, .facebook2 {
+    width: 50px;
+    height: 50px;
+    background: url(fb.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+}
+
+.x, .x2 {
+    width: 50px;
+    height: 50px;
+    background: url(x.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+}
+
+.instagram, .instagram2 {
+    width: 50px;
+    height: 50px;
+    background: url(insta.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+}
