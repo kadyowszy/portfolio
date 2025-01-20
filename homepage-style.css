@@ -5,7 +5,7 @@ body {
 
 @font-face {
     font-family: Spartan;
-    src: url(LeagueSpartan-VariableFont_wght.ttf);
+    src: url(font/LeagueSpartan-VariableFont_wght.ttf);
 }
 
 .hero {
@@ -21,7 +21,7 @@ body {
     height: 100%;
     border: 1.156px solid #000;
     box-shadow: 0px 4.625px 4.625px 0px rgba(0, 0, 0, 0.25);
-    background: url(images/face.png) lightgray -160px -352px / 120% 211% no-repeat;
+    background: url(pictures/face.png) lightgray -160px -352px / 120% 211% no-repeat;
 }
 
 .gradient {
@@ -40,7 +40,7 @@ body {
     margin-right: auto;
     margin-top: 110px;
     border: 0px solid #000;
-    background: url(images/mainlogo.png) rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background: url(logos/mainlogo.png) rgba(211, 211, 211, 0) 50% / cover no-repeat;
 }
 
 .text-main {
@@ -78,7 +78,7 @@ body {
     height: 320px;
     border-radius: 1000px;
     border: 2px solid #FFF;
-    background: url(images/paul.pfp.png) rgb(255, 255, 255) -123px -13px / 153% 191% no-repeat;
+    background: url(pictures/paul.pfp.png) rgb(255, 255, 255) -123px -13px / 153% 191% no-repeat;
 }
 
 .lncepfp {
@@ -89,7 +89,7 @@ body {
     border-radius: 1000px;
     mix-blend-mode: screen;
     border: 2px solid #FFF;
-    background: url(images/lnce.pfp.jpg) rgb(255, 255, 255) 50% / cover no-repeat;
+    background: url(pictures/lnce.pfp.jpg) rgb(255, 255, 255) 50% / cover no-repeat;
 }
 
 .polpfp, .lncepfp {
@@ -104,7 +104,7 @@ body {
     width: 175px;
     height: 125px;
     background-size: 20px 20px no-repeat;
-    background: url(images/pol.minilogo.png) rgba(255, 255, 255, 0) 70% / cover no-repeat;
+    background: url(logos/pol.minilogo.png) rgba(255, 255, 255, 0) 70% / cover no-repeat;
 }
 
 .lncemini {
@@ -114,7 +114,7 @@ body {
     width: 200px;
     height: 130px;
     background-size: 30px 30px no-repeat;
-    background: url(images/lnce.minilogo.png) rgba(255, 255, 255, 0) 70% / cover no-repeat;
+    background: url(logos/lnce.minilogo.png) rgba(255, 255, 255, 0) 70% / cover no-repeat;
 }
 
 .socials {
@@ -137,19 +137,19 @@ body {
 .facebook, .facebook2 {
     width: 50px;
     height: 50px;
-    background: url(images/fb.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+    background: url(logos/fb.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
 }
 
 .x, .x2 {
     width: 50px;
     height: 50px;
-    background: url(images/x.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+    background: url(logos/x.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
 }
 
 .instagram, .instagram2 {
     width: 50px;
     height: 50px;
-    background: url(images/insta.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+    background: url(logos/insta.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
 }
 
 .facebook {
@@ -272,20 +272,25 @@ body {
     flex-shrink: 0;
     display: flex; 
     align-items: center; 
-    justify-content: space-between;
 }
 
-#miniLogo, #gallery, #contacts {
+#gallery {
+    margin-left: 575px;
     color: #FFF;
     font-family: Spartan;
     font-size: 18.25px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: normal;
     letter-spacing: 10.975px;
     padding: 100px;
 }
 
+.minilogo {
+    position: absolute;
+    top: 9px;
+    left: 50px;
+}
 .bar {
     width: 100vw;
     height: 50px;
