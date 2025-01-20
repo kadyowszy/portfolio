@@ -1,437 +1,655 @@
 body {
-    background-color: #000;
-    margin: 0;
+  background-color: #000;
+  margin: 0;
 }
 
 @font-face {
-    font-family: Spartan;
-    src: url(font/LeagueSpartan-VariableFont_wght.ttf);
+  font-family: Spartan;
+  src: url(font/LeagueSpartan-VariableFont_wght.ttf);
 }
 
 .hero {
-    width: 98vw;
-    height: 120vh;
-    background: #000;
-    display: flex;
-    flex-direction: column;
+  width: 98vw;
+  height: 120vh;
+  background: #000;
+  display: flex;
+  flex-direction: column;
 }
 
 .background {
-    width: 100%;
-    height: 100%;
-    border: 1.156px solid #000;
-    box-shadow: 0px 4.625px 4.625px 0px rgba(0, 0, 0, 0.25);
-    background: url(pictures/face.png) lightgray -160px -352px / 120% 211% no-repeat;
+  width: 100%;
+  height: 100%;
+  border: 1.156px solid #000;
+  box-shadow: 0px 4.625px 4.625px 0px rgba(0, 0, 0, 0.25);
+  background: url(pictures/face.png) lightgray -160px -352px / 120% 211%
+    no-repeat;
 }
 
 .gradient {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, #d9d9d900 10.86%, rgb(0, 0, 0) 85%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #d9d9d900 10.86%, rgb(0, 0, 0) 85%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo-main {
-    width: 50%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 110px;
-    border: 0px solid #000;
-    background: url(logos/mainlogo.png) rgba(211, 211, 211, 0) 50% / cover no-repeat;
+  width: 623.923px;
+  height: 389.952px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 140px;
+  border: 0px solid #000;
+  background: url(logos/mainlogo.png) rgba(211, 211, 211, 0) 50% / cover
+    no-repeat;
 }
 
 .text-main {
-    position: absolute;
-    color: #EEE;
-    font-family: Spartan;
-    font-size: 24.35px;
-    font-weight: 200;
-    line-height: normal;
-    letter-spacing: 12.419px;
-    margin-top: 450px;
-    padding-right: 30px;
+  position: absolute;
+  color: #eee;
+  font-family: Spartan;
+  font-size: 24.35px;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 12.419px;
+  margin-top: 450px;
+  padding-right: 30px;
 }
 
-.profiles, .pfp, .contacts {
-    position: relative;
-    width: fit-content;
-    height: fit-content;
+.profiles,
+.pfp,
+.contacts {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
 }
 
 .contacts {
-    position: relative;
-    margin: auto;
-    margin-top: 210px;
+  position: relative;
+  margin: auto;
+  margin-top: 210px;
 }
 
 .pfp {
-    display: flex;
+  display: flex;
 }
 
 .polpfp {
-    position: relative;
-    right: -20px;
-    width: 320px;
-    height: 320px;
-    border-radius: 1000px;
-    border: 2px solid #FFF;
-    background: url(pictures/paul.pfp.png) rgb(255, 255, 255) -123px -13px / 153% 191% no-repeat;
+  position: relative;
+  right: -20px;
+  width: 320px;
+  height: 320px;
+  border-radius: 1000px;
+  border: 2px solid #fff;
+  background: url(pictures/paul.pfp.png) rgb(255, 255, 255) -123px -13px / 153%
+    191% no-repeat;
 }
 
 .lncepfp {
-    position: relative;
-    left: -20px;
-    width: 320px;
-    height: 320px;
-    border-radius: 1000px;
-    mix-blend-mode: screen;
-    border: 2px solid #FFF;
-    background: url(pictures/lnce.pfp.jpg) rgb(255, 255, 255) 50% / cover no-repeat;
+  position: relative;
+  left: -20px;
+  width: 320px;
+  height: 320px;
+  border-radius: 1000px;
+  mix-blend-mode: screen;
+  border: 2px solid #fff;
+  background: url(pictures/lnce.pfp.jpg) rgb(255, 255, 255) 50% / cover
+    no-repeat;
 }
 
-.polpfp, .lncepfp {
-    mask-image: linear-gradient(to bottom, rgb(115, 115, 115) 70%, rgba(168, 168, 168, 0) 100%);
-    -webkit-mask-image: linear-gradient(to bottom, rgb(115, 115, 115) 70%, rgba(168, 168, 168, 0) 100%);
+.polpfp,
+.lncepfp {
+  mask-image: linear-gradient(
+    to bottom,
+    rgb(115, 115, 115) 70%,
+    rgba(168, 168, 168, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgb(115, 115, 115) 70%,
+    rgba(168, 168, 168, 0) 100%
+  );
 }
 
 .polmini {
-    left: 80px;
-    bottom: 55px;
-    position: relative;
-    width: 175px;
-    height: 125px;
-    background-size: 20px 20px no-repeat;
-    background: url(logos/pol.minilogo.png) rgba(255, 255, 255, 0) 70% / cover no-repeat;
+  left: 80px;
+  bottom: 55px;
+  position: relative;
+  width: 175px;
+  height: 125px;
+  background-size: 20px 20px no-repeat;
+  background: url(logos/pol.minilogo.png) rgba(255, 255, 255, 0) 70% / cover
+    no-repeat;
 }
 
 .lncemini {
-    left: 370px;
-    bottom: 180px;
-    position: relative;
-    width: 200px;
-    height: 130px;
-    background-size: 30px 30px no-repeat;
-    background: url(logos/lnce.minilogo.png) rgba(255, 255, 255, 0) 70% / cover no-repeat;
+  left: 370px;
+  bottom: 180px;
+  position: relative;
+  width: 200px;
+  height: 130px;
+  background-size: 30px 30px no-repeat;
+  background: url(logos/lnce.minilogo.png) rgba(255, 255, 255, 0) 70% / cover
+    no-repeat;
 }
 
 .socials {
-    width: fit-content;
-    height: fit-content;
+  width: fit-content;
+  height: fit-content;
 }
 
 .left {
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    flex-wrap:nowrap;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .icons {
-    width: fit-content;
-    height:fit-content;
+  width: fit-content;
+  height: fit-content;
 }
 
-.facebook, .facebook2 {
-    width: 50px;
-    height: 50px;
-    background: url(logos/fb.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+.facebook,
+.facebook2 {
+  width: 50px;
+  height: 50px;
+  background: url(logos/fb.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
 }
 
-.x, .x2 {
-    width: 50px;
-    height: 50px;
-    background: url(logos/x.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+.x,
+.x2 {
+  width: 50px;
+  height: 50px;
+  background: url(logos/x.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
 }
 
-.instagram, .instagram2 {
-    width: 50px;
-    height: 50px;
-    background: url(logos/insta.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+.instagram,
+.instagram2 {
+  width: 50px;
+  height: 50px;
+  background: url(logos/insta.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
 }
 
 .facebook {
-    position: relative;
-    bottom: 560px;
-    right: 30px;
+  position: relative;
+  bottom: 560px;
+  right: 30px;
 }
 
 .instagram {
-    position: relative;
-    bottom: 550px;
-    right: 68px;
+  position: relative;
+  bottom: 550px;
+  right: 68px;
 }
 
 .x {
-    position: relative;
-    bottom: 385px;
-    right: 30px
+  position: relative;
+  bottom: 385px;
+  right: 30px;
 }
 
 .facebook2 {
-    position: relative;
-    bottom: 708px;
-    left: 627px;
+  position: relative;
+  bottom: 708px;
+  left: 627px;
 }
 
 .instagram2 {
-    position: relative;
-    bottom: 700px;
-    left: 660px;
+  position: relative;
+  bottom: 700px;
+  left: 660px;
 }
 
 .x2 {
-    position: relative;
-    bottom: 535px;
-    left: 629px
+  position: relative;
+  bottom: 535px;
+  left: 629px;
 }
 
-.fbuser, .xuser, .iguser, .fbuser2, .xuser2, .iguser2 {
-    position: relative;
-    color: #FFF;
-    text-align: right;
-    font-family: Spartan;
-    font-size: 20.35px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
-    letter-spacing: 4.07px;
+.fbuser,
+.xuser,
+.iguser,
+.fbuser2,
+.xuser2,
+.iguser2 {
+  position: relative;
+  color: #fff;
+  text-align: right;
+  font-family: Spartan;
+  font-size: 20.35px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 4.07px;
 }
 
 .fbuser {
-    position: relative;
-    bottom: 542px;
-    right: 270px;
+  position: relative;
+  bottom: 542px;
+  right: 270px;
 }
 
 .iguser {
-    position: relative;
-    bottom: 452px;
-    right: 310px;
+  position: relative;
+  bottom: 452px;
+  right: 310px;
 }
 
 .xuser {
-    position: relative;
-    bottom: 356px;
-    right: 270px;
+  position: relative;
+  bottom: 356px;
+  right: 270px;
 }
 
 .fbuser2 {
-    position: relative;
-    bottom: 840px;
-    left: 650px;
+  position: relative;
+  bottom: 840px;
+  left: 650px;
 }
 
 .iguser2 {
-    position: relative;
-    bottom: 752px;
-    left: 638px;
+  position: relative;
+  bottom: 752px;
+  left: 638px;
 }
 
 .xuser2 {
-    position: relative;
-    bottom: 656px;
-    left: 586px;
+  position: relative;
+  bottom: 656px;
+  left: 586px;
 }
 
 .navbar {
-    position: sticky;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 126.984px;
-    border: 1.27px solid rgba(0, 0, 0, 0.30);
-    backdrop-filter: blur(120px);
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 126.984px;
+  backdrop-filter: blur(120px);
+  z-index: 10;
 }
 
-.gallery, .contacts {
-    color: #FFF;
-    font-family: Spartan, sans-serif;
-    font-size: 23.35px;
-    font-weight: 400;
-    letter-spacing: 10.975px;
+.gallery,
+.contacts {
+  color: #fff;
+  font-family: Spartan, sans-serif;
+  font-size: 23.35px;
+  font-weight: 400;
+  letter-spacing: 10.975px;
 }
 
 .navbar {
-    width: 100vw;
-    height: 70px;
-    flex-shrink: 0;
-    backdrop-filter: blur(126.984130859375px);
-    padding: 5px; 
-    position: sticky; 
-    top: 0; 
+  width: 100vw;
+  height: 70px;
+  flex-shrink: 0;
+  backdrop-filter: blur(126.984130859375px);
+  padding: 5px;
+  position: sticky;
+  top: 0;
 }
 
 .elements {
-    width: 100vw;
-    height: 50px;
-    flex-shrink: 0;
-    display: flex; 
-    align-items: center; 
+  width: 100vw;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 
 #gallery {
-    margin-left: 575px;
-    color: #FFF;
-    font-family: Spartan;
-    font-size: 18.25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 10.975px;
-    padding: 100px;
+  margin-left: 575px;
+  color: #fff;
+  font-family: Spartan;
+  font-size: 18.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 10.975px;
+  padding: 100px;
 }
 
 #commission {
-    text-decoration: none;
-    margin-left: 180px;
-    color: #FFF;
-    font-family: Spartan;
-    font-size: 18.25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 10.975px;
-    padding: 100px;
+  text-decoration: none;
+  margin-left: 180px;
+  color: #fff;
+  font-family: Spartan;
+  font-size: 18.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 10.975px;
+  padding: 100px;
 }
 
 .minilogo {
-    position: absolute;
-    top: 9px;
-    left: 50px;
+  position: absolute;
+  top: 9px;
+  left: 50px;
 }
 .bar {
-    width: 100vw;
-    height: 50px;
-    flex-shrink: 0;
-    border: 1.27px solid rgba(0, 0, 0, 0.30);
-    opacity: 0.2;
-    background: #111;
-    backdrop-filter: blur(1.2698413133621216px);
+  width: 100vw;
+  height: 50px;
+  flex-shrink: 0;
+  border: 1.27px solid rgba(0, 0, 0, 0.3);
+  opacity: 0.2;
+  background: #111;
+  backdrop-filter: blur(1.2698413133621216px);
+}
+
+.box {
+  position: relative;
+  width: 1560px;
+  height: 4149px;
+  padding-bottom: 200px;
+  z-index: 1;
+}
+
+.box .art-16 {
+  position: absolute;
+  width: 927px;
+  height: 485px;
+  top: 0;
+  left: 633px;
+  object-fit: cover;
+}
+
+.box .jhedisaur {
+  position: absolute;
+  width: 359px;
+  height: 359px;
+  top: 485px;
+  left: 633px;
+  object-fit: cover;
+}
+
+.box .art-17 {
+  position: absolute;
+  width: 568px;
+  height: 712px;
+  top: 485px;
+  left: 992px;
+  object-fit: cover;
+}
+
+.box .anime-eyes {
+  position: absolute;
+  width: 392px;
+  height: 379px;
+  top: 844px;
+  left: 0;
+  object-fit: cover;
+}
+
+.box .sword {
+  position: absolute;
+  width: 392px;
+  height: 589px;
+  top: 1223px;
+  left: 0;
+  object-fit: cover;
+}
+
+.box .sparkler {
+  position: absolute;
+  width: 600px;
+  height: 749px;
+  top: 844px;
+  left: 392px;
+  object-fit: cover;
+}
+
+.box .art-13 {
+  position: absolute;
+  width: 568px;
+  height: 756px;
+  top: 1197px;
+  left: 992px;
+  object-fit: cover;
+}
+
+.box .art-18 {
+  position: absolute;
+  width: 600px;
+  height: 750px;
+  top: 1593px;
+  left: 392px;
+  object-fit: cover;
+}
+
+.box .colors_8 {
+  position: absolute;
+  width: 392px;
+  height: 392px;
+  top: 1812px;
+  left: 0;
+  object-fit: cover;
+}
+
+.box .colors_9 {
+  position: absolute;
+  width: 392px;
+  height: 392px;
+  top: 2204px;
+  left: 0;
+  object-fit: cover;
+}
+
+.box .wip {
+  position: absolute;
+  width: 568px;
+  height: 988px;
+  top: 1953px;
+  left: 992px;
+  object-fit: cover;
+}
+
+.box .face {
+  position: absolute;
+  width: 598px;
+  height: 598px;
+  top: 2343px;
+  left: 394px;
+  object-fit: cover;
+}
+
+.box .meow {
+  position: absolute;
+  width: 394px;
+  height: 344px;
+  top: 2597px;
+  left: 0;
+  object-fit: cover;
+}
+
+.box .kyomoto {
+  position: absolute;
+  width: 479px;
+  height: 713px;
+  top: 2941px;
+  left: 570px;
+  object-fit: cover;
+}
+
+.box .art-15 {
+  position: absolute;
+  width: 510px;
+  height: 713px;
+  top: 2941px;
+  left: 1050px;
+  object-fit: cover;
+}
+
+.box .cold {
+  position: absolute;
+  width: 570px;
+  height: 713px;
+  top: 2941px;
+  left: 0;
+  object-fit: cover;
+}
+
+.box .art-14 {
+  position: absolute;
+  width: 878px;
+  height: 494px;
+  top: 3655px;
+  left: 682px;
+  object-fit: cover;
+}
+
+.box .mikasa_ackerman {
+  position: absolute;
+  width: 682px;
+  height: 494px;
+  top: 3655px;
+  left: 0;
+  object-fit: cover;
+}
+
+.box .art-2b {
+  position: absolute;
+  width: 633px;
+  height: 844px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
 footer {
-    height: 700px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0.101) 100%);
-    padding-bottom: 60px;
+  height: 700px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(255, 255, 255, 0.101) 100%
+  );
+  padding-bottom: 430px;
 }
 
 .socials2 {
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    gap: 100px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 100px;
 }
 
 #mainlogofoot {
-    position: relative;
-    top: 26px;
+  position: relative;
+  top: 26px;
 }
 
 .left2 {
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    flex-wrap:nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .right2 {
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    flex-wrap:nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .icons2 {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .icons3 {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .usernames2 {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .usernames3 {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    gap: 80px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 80px;
 }
 
-.facebook3, .facebook4 {
-    width: 44px;
-    height: 44px;
-    background: url(logos/fb.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+.facebook3,
+.facebook4 {
+  width: 44px;
+  height: 44px;
+  background: url(logos/fb.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
 }
 
-.x3, .x4 {
-    width: 44px;
-    height: 44px;
-    background: url(logos/x.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+.x3,
+.x4 {
+  width: 44px;
+  height: 44px;
+  background: url(logos/x.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
 }
 
-.instagram3, .instagram4 {
-    width: 44px;
-    height: 44px;
-    background: url(logos/insta.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+.instagram3,
+.instagram4 {
+  width: 44px;
+  height: 44px;
+  background: url(logos/insta.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
 }
 
-#fbuser3, #xuser3, #iguser3 {
-    color: #FFF;
-    text-align: right;
-    font-family: Spartan;
-    font-size: 15.001px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
-    letter-spacing: 3px;
+#fbuser3,
+#xuser3,
+#iguser3 {
+  color: #fff;
+  text-align: right;
+  font-family: Spartan;
+  font-size: 15.001px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 3px;
 }
 
-#fbuser4, #xuser4, #iguser4 {
-    color: #FFF;
-    text-align: left;
-    font-family: Spartan;
-    font-size: 15.001px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
-    letter-spacing: 3px;
+#fbuser4,
+#xuser4,
+#iguser4 {
+  color: #fff;
+  text-align: left;
+  font-family: Spartan;
+  font-size: 15.001px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 3px;
 }
 
 .thanks {
-    color: #FFF;
-    font-family: Spartan;
-    font-size: 48.75px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    letter-spacing: 19.5px;
+  color: #fff;
+  font-family: Spartan;
+  font-size: 48.75px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 19.5px;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
 .all {
-    margin-top: 130px;
-    padding-bottom: 120px;
+  margin-top: 130px;
+  padding-bottom: 120px;
 }
