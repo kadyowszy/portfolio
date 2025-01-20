@@ -1,0 +1,190 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Spartan;
+    src: url(font/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+.all {
+    width: 100vw;
+    height: 100vh;
+    background: #292929;
+    display: flex;
+}
+
+.rectangle {
+    position: relative;
+    left: 744px;
+    width: 50vw;
+    background: #000;
+    z-index: 2;
+}
+
+.artworks {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292929;
+    z-index: 1;
+}
+
+.artwork-1 {
+    width: 262px;
+    height: 335px;
+    position:absolute;
+    bottom: 430px;
+    right: 1300px;
+    background: url(works/13.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.artwork-2 {
+    width: 262px;
+    height: 335px;
+    position:absolute;
+    bottom: 580px;
+    right: 1020px;
+    background: url(works/face.png) no-repeat center center;
+    background-size: cover;
+}
+
+.artwork-3 {
+    width: 262px;
+    height: 335px;
+    position:absolute;
+    bottom: 430px;
+    right: 740px;
+    background: url(works/meow0081.png) no-repeat center center;
+    background-size: cover;
+}
+
+.artwork-4 {
+    width: 262px;
+    height: 335px;
+    position:absolute;
+    bottom: 70px;
+    right: 1300px;
+    background: url(works/sparkler.png) no-repeat center center;
+    background-size: cover;
+}
+
+.artwork-5 {
+    width: 262px;
+    height: 335px;
+    position:absolute;
+    bottom: 220px;
+    right: 1020px;
+    background: url(works/2B2B.png) no-repeat center center;
+    background-size: cover;
+}
+
+.artwork-6 {
+    width: 262px;
+    height: 335px;
+    position:absolute;
+    bottom: 70px;
+    right: 740px;
+    background: url(works/15.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.artwork-7 {
+    width: 262px;
+    height: 45px;
+    position:absolute;
+    top: 665px;
+    right: 1300px;
+    background: url(works/17.heic) no-repeat 10% 10%;
+    background-size: cover;
+}
+
+.artwork-8 {
+    width: 262px;
+    height: 210px;
+    position:absolute;
+    top: 500px;
+    right: 1020px;
+    background: url(works/Mikasa\ Ackerman\ AOT\ S4.png) no-repeat 90%;
+    background-size: cover;
+}
+
+.artwork-9 {
+    width: 262px;
+    height: 45px;
+    position:absolute;
+    top: 665px;
+    right: 740px;
+    background: url(works/power\ 3.png) no-repeat 10% 10%;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Spartan, sans-serif;
+    font-size: 80px;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}
+
+p {
+    font-family: Spartan, sans-serif;
+    font-size: 40px;
+    color: #f58b00;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 230px;
+    right: 80px;
+    gap: 20px;
+}
+
+input {
+    width: 40vw;
+    height: 50px;
+    font-family: Spartan, sans-serif;
+    font-size: 20px;
+    padding-left: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding-top: 4px;
+}
+
+button {
+    width: 10vw;
+    height: 50px;
+    font-family: Spartan, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    background: #f58b00;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#contacts {
+    font-family: Spartan, sans-serif;
+    font-size: 20px;
+    color: #737373;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 640px;
+    left: 50px;
+}
