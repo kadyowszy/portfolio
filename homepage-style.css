@@ -263,7 +263,6 @@ body {
     padding: 5px; 
     position: sticky; 
     top: 0; 
-    z-index: 1030;
 }
 
 .elements {
@@ -299,4 +298,127 @@ body {
     opacity: 0.2;
     background: #111;
     backdrop-filter: blur(1.2698413133621216px);
+}
+
+footer {
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0.101) 100%);
+    padding-bottom: 60px;
+}
+
+.socials2 {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 100px;
+}
+
+#mainlogofoot {
+    position: relative;
+    top: 26px;
+}
+
+.left2 {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.right2 {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.icons2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.icons3 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.usernames2 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.usernames3 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.facebook3, .facebook4 {
+    width: 44px;
+    height: 44px;
+    background: url(logos/fb.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+}
+
+.x3, .x4 {
+    width: 44px;
+    height: 44px;
+    background: url(logos/x.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+}
+
+.instagram3, .instagram4 {
+    width: 44px;
+    height: 44px;
+    background: url(logos/insta.png) rgba(255, 255, 255, 0) 50% / cover no-repeat;
+}
+
+#fbuser3, #xuser3, #iguser3 {
+    color: #FFF;
+    text-align: right;
+    font-family: Spartan;
+    font-size: 15.001px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+#fbuser4, #xuser4, #iguser4 {
+    color: #FFF;
+    text-align: left;
+    font-family: Spartan;
+    font-size: 15.001px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.thanks {
+    color: #FFF;
+    font-family: Spartan;
+    font-size: 48.75px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 19.5px;
+}
+
+.all {
+    margin-top: 130px;
+    padding-bottom: 120px;
 }
